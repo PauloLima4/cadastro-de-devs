@@ -1,0 +1,104 @@
+:root{
+    --white : white;
+    --background-Body: #231942;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: var(--background-Body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+} */
+
+.centro{
+    background-color: var(--white);
+    flex-direction: column;
+    height: 80vh;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelInputText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #231942;
+    width: 300px;
+    height: 35px;
+}
+
+.input_text_tecnologias{
+    height: 25px;
+    width: 200px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(117deg, #000 0.1%, #8ff2ff 49.99%, #000 99.69%);
+}
+
+.cadastro{
+    color: white;
+    background-color: rgb(47, 79, 224);
+    width: 90px;
+    height: 35px;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.tecnologia {
+    color: white;
+    margin-top: 4px;
+    margin-left: 0px;
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(47, 79, 224);
+}
